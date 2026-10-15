@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,18 @@
       <a href="#studio">Studio</a>
       <a href="privacy.html">Quyền riêng tư</a>
     </nav>
-    <a class="header-cta" href="#games">Khám phá <span>↗</span></a>
+    <div class="header-actions">
+      <label class="language-switcher">
+        <span class="language-icon" aria-hidden="true">◎</span>
+        <span class="sr-only">Ngôn ngữ</span>
+        <select class="language-select" aria-label="Ngôn ngữ">
+          <option value="en">EN</option>
+          <option value="vi">VI</option>
+          <option value="ja">JA</option>
+        </select>
+      </label>
+      <a class="header-cta" href="#games">Khám phá <span>↗</span></a>
+    </div>
   </header>
 
   <main>
@@ -175,7 +186,7 @@
     </div>
     <div class="footer-bottom">
       <span>© <span id="year"></span> HimiDex Games</span>
-      <div><a href="privacy.html">Privacy Policy</a><a href="mailto:privacy@himidex.games">Liên hệ</a></div>
+      <div><a href="privacy.html">Privacy Policy</a><a href="mailto:hien0888307362@gmail.com">Liên hệ</a></div>
       <button class="to-top" type="button" aria-label="Lên đầu trang">↑</button>
     </div>
   </footer>
@@ -191,6 +202,7 @@
       <button class="btn btn-primary" type="button" data-close>Đã hiểu</button>
     </div>
   </div>
+  <script src="assets/i18n.js" defer></script>
   <script src="assets/app.js" defer></script>
 </body>
 </html>

@@ -7,7 +7,8 @@ window.addEventListener('scroll', () => header?.classList.toggle('scrolled', win
 menuToggle?.addEventListener('click', () => {
   const open = document.body.classList.toggle('menu-open');
   menuToggle.setAttribute('aria-expanded', String(open));
-  menuToggle.setAttribute('aria-label', open ? 'Đóng menu' : 'Mở menu');
+  const label = open ? 'Đóng menu' : 'Mở menu';
+  menuToggle.setAttribute('aria-label', window.siteI18n?.translate(label) || label);
 });
 
 document.querySelectorAll('.nav a').forEach(link => link.addEventListener('click', () => {
