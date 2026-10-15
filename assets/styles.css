@@ -220,8 +220,6 @@ img { max-width: 100%; display: block; }
 .developer-details > div { display:grid; grid-template-columns:minmax(150px, .8fr) minmax(0, 1.2fr); gap:24px; padding:13px 0; border-bottom:1px solid var(--line); }
 .developer-details dt { color:#748198; font-size:11px; }
 .developer-details dd { margin:0; color:#dfe6f1; font-size:12px; overflow-wrap:anywhere; }
-.owner-notice { margin-top:45px;padding:22px 24px;border:1px solid rgba(255,196,102,.28);border-radius:14px;background:rgba(255,196,102,.06)}.owner-notice strong{display:block;color:#ffd38c;font-size:12px}.owner-notice p{margin:7px 0 0;color:#a99475;font-size:11px;line-height:1.7}
-
 .reveal { opacity:0; transform:translateY(30px); transition:opacity .8s ease, transform .8s cubic-bezier(.2,.75,.25,1); }
 .reveal.visible { opacity:1; transform:none; }
 .game-card:nth-child(2).reveal{transition-delay:.1s}.game-card:nth-child(3).reveal{transition-delay:.2s}
