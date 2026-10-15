@@ -197,17 +197,17 @@ img { max-width: 100%; display: block; }
 .policy-badge { top:130px; display:inline-flex; align-items:center; gap:9px; padding:8px 12px; border:1px solid rgba(84,228,255,.22); border-radius:99px; color:#a7ebf5; background:rgba(84,228,255,.07); font-size:10px; text-transform:uppercase; letter-spacing:.1em; }
 .policy-badge span { width:18px;height:18px;display:grid;place-items:center;border-radius:50%;color:#07101a;background:var(--cyan);font-weight:800; }
 .policy-aside nav { top:190px; display:flex; flex-direction:column; margin-top:30px; }
-.policy-aside nav > span { margin-bottom:13px; color:#606e84; font-size:9px; text-transform:uppercase; letter-spacing:.15em; }
-.policy-aside nav a { padding:8px 0 8px 14px; border-left:1px solid var(--line); color:#738096; font-size:11px; transition:.2s; }
+.policy-aside nav > span { margin-bottom:13px; color:#606e84; font-size:10px; text-transform:uppercase; letter-spacing:.15em; }
+.policy-aside nav a { padding:8px 0 8px 14px; border-left:1px solid var(--line); color:#738096; font-size:13px; line-height:1.45; transition:.2s; }
 .policy-aside nav a:hover, .policy-aside nav a.active { border-left-color:var(--cyan); color:var(--cyan); }
 .policy-hero { padding-bottom:80px; }
 .policy-hero h1 { margin:20px 0 25px; font-family:var(--display); font-size:clamp(56px,8vw,92px); line-height:.93; letter-spacing:-.07em; }
 .policy-hero h1 span { color:transparent; -webkit-text-stroke:1px rgba(255,255,255,.55); }
 .policy-intro { max-width:680px; color:#b4bfd0; font-size:18px; line-height:1.8; }
 .policy-meta { margin-top:34px; display:flex; gap:14px; font-size:11px; }.policy-meta span{color:#6f7d92}.policy-meta strong{color:#cbd4e3;font-weight:500}
-.policy-section { scroll-margin-top:120px; display:grid; grid-template-columns:54px 1fr; gap:26px; padding:55px 0; border-top:1px solid var(--line); }
-.section-num { color:var(--cyan); font-family:var(--display); font-size:11px; }
-.policy-section h2 { margin:-8px 0 20px; font-family:var(--display); font-size:28px; letter-spacing:-.035em; }
+.policy-section { scroll-margin-top:120px; display:grid; grid-template-columns:64px 1fr; gap:28px; align-items:start; padding:55px 0; border-top:1px solid var(--line); }
+.section-num { display:block; color:var(--cyan); font-family:var(--display); font-size:34px; font-weight:700; line-height:1; letter-spacing:-.02em; font-variant-numeric:tabular-nums; text-shadow:0 0 22px rgba(84,228,255,.35); user-select:none; }
+.policy-section h2 { margin:2px 0 20px; font-family:var(--display); font-size:28px; line-height:1.15; letter-spacing:-.035em; }
 .policy-section p { color:#9ca8ba; font-size:14px; line-height:1.85; }
 .policy-section strong { color:#dfe6f1; }
 .policy-section ul { margin:22px 0 0; padding:0; list-style:none; }
@@ -253,7 +253,7 @@ img { max-width: 100%; display: block; }
   .studio{padding-bottom:100px}.studio-grid{grid-template-columns:1fr;gap:20px}.studio-copy{padding-top:0}.studio-copy .lead{font-size:17px}.values-grid{grid-template-columns:1fr;margin-top:55px}.value-card{min-height:190px}.value-card h3{margin-top:38px}
   .cta-section{width:calc(100% - 20px);padding:75px 22px;margin-bottom:50px;border-radius:22px}.cta-section p{font-size:13px}
   .footer-top{align-items:flex-start;gap:15px;flex-direction:column}.footer-bottom{gap:20px;align-items:flex-start;flex-wrap:wrap}.footer-bottom div{order:3;width:100%}
-  .policy-shell{padding-top:140px}.policy-hero{padding-bottom:55px}.policy-hero h1{font-size:56px}.policy-intro{font-size:15px}.policy-section{grid-template-columns:32px 1fr;gap:13px;padding:42px 0}.policy-section h2{font-size:23px}.policy-section p,.policy-section li{font-size:13px}.contact-mail{font-size:16px}.developer-details>div{grid-template-columns:1fr;gap:5px}.privacy-page .site-footer{padding-inline:0}
+  .policy-shell{padding-top:140px}.policy-hero{padding-bottom:55px}.policy-hero h1{font-size:56px}.policy-intro{font-size:15px}.policy-section{grid-template-columns:46px 1fr;gap:16px;padding:42px 0}.section-num{font-size:24px}.policy-section h2{margin:2px 0 16px;font-size:23px}.policy-section p,.policy-section li{font-size:13px}.contact-mail{font-size:16px}.developer-details>div{grid-template-columns:1fr;gap:5px}.privacy-page .site-footer{padding-inline:0}
   .modal-card{padding:28px}.modal-visual{height:145px}
 }
 
