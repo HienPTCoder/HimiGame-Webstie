@@ -1,4 +1,4 @@
-# HimiDex Games Website
+# HimiDex Game Website
 
 Website tĩnh giới thiệu studio game mobile, tối ưu cho desktop và điện thoại, kèm trang Chính sách quyền riêng tư phục vụ liên kết trên Google Play.
 
